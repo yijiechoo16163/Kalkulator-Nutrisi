@@ -1,0 +1,15 @@
+is_continue = True
+
+while is_continue == True:
+    print("\nNutriCalc v1.0")
+    print("\nPython Nutrition Calculator by Bernard Koo, Zin Him and Yi Jie")
+    carbohydrate = float(input("\nPlease enter the carbohydrate content in grams: "))
+    protein = float(input("Please enter the protein content in grams: "))
+    fat = float(input("Please enter the fat content in grams: "))
+    total_calories = (carbohydrate * 4) + (protein * 4) + (fat * 9)
+    print(f"\nThe total calories for the given macronutrient content is: {int(total_calories)} calories.")
+    is_continue_input = input("\nDo you want to continue? (yes/no): ")
+    if is_continue_input.lower() == "yes":
+        is_continue = True
+    else:
+        is_continue = False
