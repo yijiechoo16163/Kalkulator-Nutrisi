@@ -46,5 +46,7 @@ while is_continue:
             is_continue_input = True
         else:
             print("Invalid input. Please enter 'y' to continue or 'n' to exit.")
-            
+            is_continue_input = False
+
 print("\nThank you for using NutriCalc v1.0. Goodbye!")
+input("\nPress Enter to continue...")
