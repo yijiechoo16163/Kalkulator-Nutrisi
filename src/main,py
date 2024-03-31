@@ -1,6 +1,6 @@
 is_continue = True
 
-while is_continue == True:
+while is_continue:
     print("\nNutriCalc v1.0")
     print("\nPython Nutrition Calculator by Bernard Koo, Zin Him and Yi Jie")
     carbohydrate = float(input("\nPlease enter the carbohydrate content in grams: "))
