@@ -1,5 +1,5 @@
 is_continue = True
-print("\n    NutriCalc v1.0")
+print("\n    NutCalc v1.0")
 print("    Python Nutrition Calculator by Bernard Koo, Zin Him and Yi Jie\n")
 
 
@@ -48,5 +48,5 @@ while is_continue:
             print("Invalid input. Please enter 'y' to continue or 'n' to exit.")
             is_continue_input = False
 
-print("\nThank you for using NutriCalc v1.0. Goodbye!")
+print("\nThank you for using NutCalc v1.0. Goodbye!")
 input("\nPress Enter to continue...")
