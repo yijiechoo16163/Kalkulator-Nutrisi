@@ -1,6 +1,5 @@
 import pymysql
 
-# Replace with your database credentials
 host = 'sql6.freesqldatabase.com'
 user = 'sql6695141'
 password = 'XPi3U647s7'
@@ -24,7 +23,6 @@ def calculate_total_calories(carbohydrate, protein, fat):
         print("Error: Macronutrient content cannot be zero.")
         return None
 
-# Example usage:
 is_continue = True
 print("\n    NutCalc v1.0")
 print("    Python Nutrition Calculator by Bernard Koo, Zin Him and Yi Jie\n")
