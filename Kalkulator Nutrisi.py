@@ -25,7 +25,7 @@ def calculate_total_calories(carbohydrate, protein, fat):
 
 is_continue = True
 print("\n    NutCalc v1.0")
-print("    Kalkulator Pemakanan Python oleh Bernard Koo, Zin Him, dan Yi Jie\n")
+print("    Kalkulator Nutrisi Python oleh Bernard Koo, Zin Him, dan Yi Jie\n")
 
 while is_continue:
     food_name = input("\nMasukkan nama makanan: ")
