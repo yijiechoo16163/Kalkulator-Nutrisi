@@ -1,6 +1,6 @@
 is_continue = True
 print("\n    NutCalc v1.0")
-print("    Python Nutrition Calculator by Bernard Koo, Zin Him and Yi Jie\n")
+print("    Kalkulator Nutrisi oleh Bernard Koo, Zin Him dan Yi Jie\n")
 
 
 while is_continue:
@@ -10,34 +10,34 @@ while is_continue:
     is_continue_input = False
 
     while not carbohydrate_input:
-        carbohydrate = input("\nPlease enter the carbohydrate content in grams: ")
+        carbohydrate = input("\nSila masukkan kandungan karbohidrat dalam gram: ")
         try:
             carbohydrate = float(carbohydrate)
             carbohydrate_input = True
         except ValueError:
-            print("Input invalid. Please enter a valid number.")
+            print("Input tidak sah. Sila masukkan nombor yang sah.")
 
     while not protein_input:
-        protein = input("\nPlease enter the protein content in grams: ")
+        protein = input("\nSila masukkan kandungan protein dalam gram: ")
         try:
             protein = float(protein)
             protein_input = True
         except ValueError:
-            print("Input invalid. Please enter a valid number.")
+            print("Input tidak sah. Sila masukkan nombor yang sah.")
     
     while not fat_input:
-        fat = input("\nPlease enter the fat content in grams: ")
+        fat = input("\nSila masukkan kandungan lemak dalam gram: ")
         try:
             fat = float(fat)
             fat_input = True
         except ValueError:
-            print("Input invalid. Please enter a valid number.")
+            print("Input tidak sah. Sila masukkan nombor yang sah.")
     
     total_calories = (carbohydrate * 4) + (protein * 4) + (fat * 9)
-    print(f"\nThe total calories for the given macronutrient content is: {round(total_calories, 2)} calories.")
+    print(f"\nJumlah kalori untuk kandungan makronutrien yang diberi adalah: {round(total_calories, 2)} kalori.")
 
     while not is_continue_input:
-        is_continue_input = input("\nDo you want to continue? (y/N): ")
+        is_continue_input = input("\nAdakah anda mahu teruskan? (y/T): ")
         if is_continue_input.lower() == "y":
             is_continue = True
             is_continue_input = True
@@ -45,8 +45,8 @@ while is_continue:
             is_continue = False
             is_continue_input = True
         else:
-            print("Invalid input. Please enter 'y' to continue or 'n' to exit.")
+            print("Input tidak sah. Sila masukkan 'y' untuk teruskan atau 'n' untuk keluar.")
             is_continue_input = False
 
-print("\nThank you for using NutCalc v1.0. Goodbye!")
-input("\nPress Enter to continue...")
+print("\nTerima kasih kerana menggunakan NutCalc v1.0. Selamat tinggal!")
+input("\nTekan Enter untuk teruskan...")
