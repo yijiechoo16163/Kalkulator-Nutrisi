@@ -44,7 +44,7 @@ while is_continue:  # Permulaan paksi utama
 
     # Loop pengesahan input teruskan
     while not is_continue_input:
-        is_continue_input = input("\nAdakah anda mahu teruskan? (y/t): ")
+        is_continue_input = input("\nAdakah anda mahu teruskan? (y/T): ")
         if is_continue_input.lower() == "y":
             is_continue = True
             is_continue_input = True
