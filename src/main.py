@@ -1,7 +1,7 @@
 # Atur cara bagi program kalkulator nutrisi
 
 is_continue = True  # Flag untuk mengawal sama ada program meneruskan berjalan atau tidak
-print("\n    NutCalc v1.0")  # Cetak tajuk program
+print("\n    NutCalc v1.0.0")  # Cetak tajuk program
 print("    Kalkulator Nutrisi oleh Bernard Koo, Zin Him, Yi Jie dan Matthew\n")  # Cetak penulis program
 
 
