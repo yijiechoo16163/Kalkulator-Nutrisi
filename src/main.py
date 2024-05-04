@@ -1,7 +1,19 @@
 # Atur cara bagi program kalkulator nutrisi
 
 is_continue = True  # Flag untuk mengawal sama ada program meneruskan berjalan atau tidak
+
+print("                                                                             ")
+print("    888b    888              888       .d8888b.               888            ")
+print("    8888b   888              888      d88P  Y88b              888            ")
+print("    88888b  888              888      888    888              888            ")
+print("    888Y88b 888   888  888   888888   888           8888b.    888    .d8888b ")
+print("    888 Y88b888   888  888   888      888              *88b   888   d88P*    ")
+print("    888  Y88888   888  888   888      888    888   .d888888   888   888      ")
+print("    888   Y8888   Y88b 888   Y88b.    Y88b  d88P   888  888   888   Y88b.    ")
+print("    888    Y888    *Y88888    *Y888    *Y8888P*    *Y888888   888    *Y8888P ")
+
 print("\n    NutCalc v1.0.0")  # Cetak tajuk program
+
 print("    Kalkulator Nutrisi oleh Bernard Koo, Zin Him, Yi Jie dan Matthew\n")  # Cetak penulis program
 
 
